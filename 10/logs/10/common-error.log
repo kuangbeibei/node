@@ -1,0 +1,75 @@
+2020-09-02 15:21:22,616 ERROR 5304 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\admin\node\10\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\admin\node\10\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\admin\node\10\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\admin\node\10\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\admin\node\10\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\admin\node\10\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\admin\node\10\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\admin\node\10\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\admin\node\10\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\admin\node\10\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 5304
+hostname: DESKTOP-GNQ3KS2
+
+2020-09-02 16:32:34,209 ERROR 2120 nodejs.ClusterClientNoResponseError: client no response in 78311ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\admin\node\10\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 2120
+hostname: DESKTOP-GNQ3KS2
+
+2020-09-02 16:31:35,736 ERROR 14484 [-/127.0.0.1/-/11ms GET /news] nodejs.Template render error: (C:\Users\admin\node\10\app\view\news.html) [Line 16, Column 43]
+  expected variable end
+  expected variable end
+    at Object._prettifyError (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:536:21)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:364:27
+    at createTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:313:9)
+    at handle (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:325:11)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:337:9
+    at next (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:358:10)
+name: "Template render error"
+pid: 14484
+hostname: DESKTOP-GNQ3KS2
+
+2020-09-02 16:34:54,772 ERROR 14484 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:57343)
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:786:11)
+    at Socket._write (net.js:798:8)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Socket.Writable.write (_stream_writable.js:318:11)
+    at Follower.sendHeartBeat (C:\Users\admin\node\10\node_modules\tcp-base\lib\base.js:105:18)
+    at Timeout._onTimeout (C:\Users\admin\node\10\node_modules\tcp-base\lib\base.js:437:12)
+    at listOnTimeout (internal/timers.js:549:17)
+errno: "ECONNABORTED"
+code: "ECONNABORTED"
+syscall: "write"
+name: "ECONNABORTEDError"
+pid: 14484
+hostname: DESKTOP-GNQ3KS2
+
+2020-09-02 16:35:13,550 ERROR 1052 [-/127.0.0.1/-/17ms GET /news] nodejs.Template render error: (C:\Users\admin\node\10\app\view\news.html) [Line 16, Column 43]
+  expected variable end
+  expected variable end
+    at Object._prettifyError (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:536:21)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:364:27
+    at createTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:313:9)
+    at handle (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:325:11)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:337:9
+    at next (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:358:10)
+name: "Template render error"
+pid: 1052
+hostname: DESKTOP-GNQ3KS2
+

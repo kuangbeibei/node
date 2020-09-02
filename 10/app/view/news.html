@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news list</title>
+    <link rel="stylesheet" href="/public/style.css" />
+</head>
+<body>
+    <div class="container">
+        <ul>
+            {% for item in list %}
+            <li>
+                <a href="{{item.url}}">{{item.title}}</a>
+                <span><img src="{{item.image}}" alt=""></span>
+                <span>創建時間：{{item.createAt}}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
