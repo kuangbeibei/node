@@ -2,10 +2,11 @@ let express = require('express');
 let app = express();
 let Mock = require('mockjs');
 app.get('/news', (req, res) => {
+
     let result = Mock.mock({
         code: 0,
         message: 'success',
-        "data|5": [{
+        [`data|${req.query.limit}`]: [{
             "id": "@id",
             "title": "@csentence",
             "url": "url",
