@@ -16,5 +16,8 @@ module.exports = app => {
             // '.ejs': 'ejs'
         }
     }
+    config.news = {
+        url: 'http://localhost:3000/news'
+    }
     return config;
 }
