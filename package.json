@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kuangbeibei/node#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mockjs": "^1.1.0",
     "nunjucks": "^3.2.2"
   }
 }
