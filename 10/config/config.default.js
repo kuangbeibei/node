@@ -14,6 +14,7 @@ module.exports = app => {
         mapping: {
             '.html': 'nunjucks',
             // '.ejs': 'ejs'
+            // ...
         }
     }
     config.news = {

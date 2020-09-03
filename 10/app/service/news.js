@@ -13,7 +13,8 @@ class NewsService extends Service {
             data: {limit},
             dataType:'json',
         });
-        console.log(result);
         return result.data.data;
     }
 }
+
+module.exports = NewsService;

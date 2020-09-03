@@ -322,6 +322,9 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "news": {
+      "url": "http://localhost:3000/news"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares",

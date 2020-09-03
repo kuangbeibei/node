@@ -10,6 +10,9 @@
     "cache": "C:\\Users\\admin\\node\\10\\node_modules\\egg-view\\config\\config.local.js",
     "defaultViewEngine": "C:\\Users\\admin\\node\\10\\node_modules\\egg-view\\config\\config.default.js"
   },
+  "news": {
+    "url": "C:\\Users\\admin\\node\\10\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "C:\\Users\\admin\\node\\10\\node_modules\\egg-session\\config\\config.default.js",
     "key": "C:\\Users\\admin\\node\\10\\node_modules\\egg-session\\config\\config.default.js",

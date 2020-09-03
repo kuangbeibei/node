@@ -1,3 +1,6 @@
+/**
+ * 模擬後端接口
+ */
 let express = require('express');
 let app = express();
 let Mock = require('mockjs');
@@ -9,7 +12,7 @@ app.get('/news', (req, res) => {
         [`data|${req.query.limit}`]: [{
             "id": "@id",
             "title": "@csentence",
-            "url": "url",
+            "url": "@url",
             "image": "@image('200*100', 'indianred', '#fff', 'mockjs')",
             "createAt": "@datetime"
         }] 
