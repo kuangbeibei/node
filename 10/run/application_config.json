@@ -325,6 +325,9 @@
     "news": {
       "url": "http://localhost:3000/news"
     },
+    "cache": {
+      "url": "http://localhost:3000/cache"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares",

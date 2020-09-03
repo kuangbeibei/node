@@ -4,7 +4,7 @@ class NewsController extends Controller {
     async index () {
         // this.ctx.body = 'hello news index';
         const {
-            ctx
+            ctx,
         } = this;
         // const list=[
         //     {
@@ -36,8 +36,7 @@ class NewsController extends Controller {
 
         // 然後去調服務層
         let list = await this.service.news.list(limit);
-        
-        await ctx.render('news', {list: Array.isArray(list) ? list : [list]})
+        await ctx.render('news', {list: Array.isArray(list) ? list : [list], title: ctx.app.cache ||'默認title'}); // 補充獲取新聞標題的定時任務的數據
     }
 }
 

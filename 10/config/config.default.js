@@ -17,8 +17,16 @@ module.exports = app => {
             // ...
         }
     }
+
+    // news list接口地址
     config.news = {
         url: 'http://localhost:3000/news'
     }
+
+    // news title接口地址，用作緩存title數據
+    config.cache = {
+        url: 'http://localhost:3000/cache'
+    }
+
     return config;
 }

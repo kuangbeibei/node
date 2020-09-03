@@ -14,3 +14,106 @@ name: "ClusterClientNoResponseError"
 pid: 23844
 hostname: DESKTOP-GNQ3KS2
 
+2020-09-03 14:23:37,568 ERROR 20284 [-/127.0.0.1/-/31ms GET /news?limit=1] nodejs.TypeError: Cannot read property 'title' of undefined
+    at NewsController.index (C:\Users\admin\node\10\app\controller\news.js:40:95)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\admin\node\10\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\admin\node\10\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\admin\node\10\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\admin\node\10\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\admin\node\10\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\admin\node\10\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\admin\node\10\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\admin\node\10\node_modules\koa-static-cache\index.js:41:56
+
+pid: 20284
+hostname: DESKTOP-GNQ3KS2
+
+2020-09-03 14:24:32,386 ERROR 20284 [Job#15991142723822493309547895001] C:\Users\admin\node\10\app\schedule\updatecache.js execute failed, used 3ms. TypeError: Cannot set property 'title' of undefined
+    at NewsSubscription.subscribe (C:\Users\admin\node\10\app\schedule\updatecache.js:19:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-09-03 14:25:34,157 ERROR 28952 [-/127.0.0.1/-/15ms GET /news?limit=1] nodejs.Template render error: (C:\Users\admin\node\10\app\view\news.html) [Line 6, Column 15]
+  unknown block tag: title
+  unknown block tag: title
+    at Object._prettifyError (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:536:21)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:364:27
+    at createTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:313:9)
+    at handle (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:325:11)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:337:9
+    at next (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:358:10)
+name: "Template render error"
+pid: 28952
+hostname: DESKTOP-GNQ3KS2
+
+2020-09-03 14:27:00,958 ERROR 27876 [-/127.0.0.1/-/26ms GET /news?limit=1] nodejs.Template render error: (C:\Users\admin\node\10\app\view\news.html) [Line 6, Column 15]
+  unknown block tag: title
+  unknown block tag: title
+    at Object._prettifyError (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:536:21)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:364:27
+    at createTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:313:9)
+    at handle (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:325:11)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:337:9
+    at next (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:358:10)
+name: "Template render error"
+pid: 27876
+hostname: DESKTOP-GNQ3KS2
+
+2020-09-03 14:29:02,459 ERROR 27716 [-/127.0.0.1/-/27ms GET /news?limit=1] nodejs.Template render error: (C:\Users\admin\node\10\app\view\news.html) [Line 6, Column 15]
+  unknown block tag: title
+  unknown block tag: title
+    at Object._prettifyError (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:536:21)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:364:27
+    at createTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:313:9)
+    at handle (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:325:11)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:337:9
+    at next (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:358:10)
+name: "Template render error"
+pid: 27716
+hostname: DESKTOP-GNQ3KS2
+
+2020-09-03 14:29:03,549 ERROR 27716 [-/127.0.0.1/-/5ms GET /news?limit=1] nodejs.Template render error: (C:\Users\admin\node\10\app\view\news.html) [Line 6, Column 15]
+  unknown block tag: title
+  unknown block tag: title
+    at Object._prettifyError (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:536:21)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:364:27
+    at createTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:313:9)
+    at handle (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:325:11)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:337:9
+    at next (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:358:10)
+name: "Template render error"
+pid: 27716
+hostname: DESKTOP-GNQ3KS2
+
+2020-09-03 14:29:22,738 ERROR 18792 [-/127.0.0.1/-/25ms GET /news?limit=1] nodejs.Template render error: (C:\Users\admin\node\10\app\view\news.html) [Line 6, Column 15]
+  unknown block tag: title
+  unknown block tag: title
+    at Object._prettifyError (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:536:21)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:364:27
+    at createTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:313:9)
+    at handle (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:325:11)
+    at C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:337:9
+    at next (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\admin\node\10\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\admin\node\10\node_modules\nunjucks\src\environment.js:358:10)
+name: "Template render error"
+pid: 18792
+hostname: DESKTOP-GNQ3KS2
+

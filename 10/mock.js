@@ -20,4 +20,8 @@ app.get('/news', (req, res) => {
     res.json(result);
 });
 
+app.get('/cache', (req, res) => {
+    res.json(`新的新聞標題 ${Date.now()}`)
+})
+
 app.listen(3000);
