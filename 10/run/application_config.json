@@ -106,6 +106,7 @@
         "C:\\Users\\admin\\node\\10\\node_modules\\egg-static\\config\\locales",
         "C:\\Users\\admin\\node\\10\\node_modules\\egg-view\\config\\locales",
         "C:\\Users\\admin\\node\\10\\node_modules\\egg-view-nunjucks\\config\\locales",
+        "C:\\Users\\admin\\node\\10\\node_modules\\egg-mysql\\config\\locales",
         "C:\\Users\\admin\\node\\10\\node_modules\\egg\\config\\locales",
         "C:\\Users\\admin\\node\\10\\config\\locales"
       ],
@@ -191,6 +192,21 @@
       "lstripBlocks": false,
       "cache": false
     },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "localhost",
+        "user": "root",
+        "password": "<String len: 4>",
+        "port": 3306,
+        "database": "studb"
+      }
+    },
     "env": "local",
     "name": "10",
     "keys": "<String len: 14>",
@@ -214,6 +230,7 @@
       "license": "ISC",
       "dependencies": {
         "egg": "^2.27.0",
+        "egg-mysql": "^3.0.0",
         "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
@@ -504,6 +521,17 @@
       "from": "C:\\Users\\admin\\node\\10\\config\\plugin.js",
       "path": "C:\\Users\\admin\\node\\10\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\admin\\node\\10\\config\\plugin.js",
+      "path": "C:\\Users\\admin\\node\\10\\node_modules\\egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

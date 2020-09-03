@@ -16,6 +16,21 @@
   "cache": {
     "url": "C:\\Users\\admin\\node\\10\\config\\config.default.js"
   },
+  "mysql": {
+    "client": {
+      "host": "C:\\Users\\admin\\node\\10\\config\\config.default.js",
+      "user": "C:\\Users\\admin\\node\\10\\config\\config.default.js",
+      "password": "C:\\Users\\admin\\node\\10\\config\\config.default.js",
+      "port": "C:\\Users\\admin\\node\\10\\config\\config.default.js",
+      "database": "C:\\Users\\admin\\node\\10\\config\\config.default.js"
+    },
+    "app": "C:\\Users\\admin\\node\\10\\config\\config.default.js",
+    "default": {
+      "database": "C:\\Users\\admin\\node\\10\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "C:\\Users\\admin\\node\\10\\node_modules\\egg-mysql\\config\\config.default.js"
+    },
+    "agent": "C:\\Users\\admin\\node\\10\\node_modules\\egg-mysql\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "C:\\Users\\admin\\node\\10\\node_modules\\egg-session\\config\\config.default.js",
     "key": "C:\\Users\\admin\\node\\10\\node_modules\\egg-session\\config\\config.default.js",
@@ -183,6 +198,7 @@
     "license": "C:\\Users\\admin\\node\\10\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "egg": "C:\\Users\\admin\\node\\10\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "C:\\Users\\admin\\node\\10\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "C:\\Users\\admin\\node\\10\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {

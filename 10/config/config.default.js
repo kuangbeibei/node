@@ -28,5 +28,17 @@ module.exports = app => {
         url: 'http://localhost:3000/cache'
     }
 
+    // 配置數據庫
+    config.mysql = {
+        client: {
+            host: 'localhost',
+            user: 'root',
+            password: 'root',
+            port: 3306,
+            database: 'studb'
+        },
+        app: true // 把mysql掛載到app上，這樣可以通過app.mysql拿到
+    }
+
     return config;
 }

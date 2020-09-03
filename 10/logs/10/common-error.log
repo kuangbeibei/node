@@ -117,3 +117,33 @@ name: "Template render error"
 pid: 18792
 hostname: DESKTOP-GNQ3KS2
 
+2020-09-03 17:28:23,085 ERROR 18808 [-/127.0.0.1/-/7ms GET /news?limit=5] nodejs.ReferenceError: LIMIT is not defined
+    at NewsService.list (C:\Users\admin\node\10\app\service\news.js:21:65)
+    at NewsController.index (C:\Users\admin\node\10\app\controller\news.js:38:44)
+    at Object.callFn (C:\Users\admin\node\10\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\admin\node\10\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\admin\node\10\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\admin\node\10\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\admin\node\10\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\admin\node\10\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\admin\node\10\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\admin\node\10\node_modules\koa-compose\index.js:44:32)
+
+pid: 18808
+hostname: DESKTOP-GNQ3KS2
+
+2020-09-03 17:29:16,317 ERROR 27892 [-/127.0.0.1/-/8ms GET /news?limit=5] nodejs.TypeError: this.app.query is not a function
+    at NewsService.list (C:\Users\admin\node\10\app\service\news.js:21:31)
+    at NewsController.index (C:\Users\admin\node\10\app\controller\news.js:38:44)
+    at Object.callFn (C:\Users\admin\node\10\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\admin\node\10\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\admin\node\10\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\admin\node\10\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\admin\node\10\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\admin\node\10\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\admin\node\10\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\admin\node\10\node_modules\koa-compose\index.js:44:32)
+
+pid: 27892
+hostname: DESKTOP-GNQ3KS2
+

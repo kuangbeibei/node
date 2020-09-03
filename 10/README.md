@@ -5,4 +5,5 @@
 5. config.default.js放置對keys的配置、對view模板渲染的配置、對接口地址的配置、對緩存的配置
 6. app目錄下，controller、service、view、schedule名稱是固定不變的
 7. schedule目錄下放置計劃任務，eggjs默認採用node集群管理
-8. 
+8. npm i -S egg-mysql，安裝完后在插件裡配置egg-mysql
+9. 通過navicat操作mysql數據庫，創建表，query數據

@@ -95,3 +95,44 @@
 2020-09-03 14:32:37,465 INFO 24180 [Timer] C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 34042535ms at 2020-09-04 00:00:00.000
 2020-09-03 14:32:37,465 INFO 24180 [Timer] C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 34043535ms at 2020-09-04 00:00:01.000
 2020-09-03 14:32:37,465 INFO 24180 [Timer] C:\Users\admin\node\10\app\schedule\updatecache.js next time will execute after 60000ms at 2020-09-03 14:33:37.465
+2020-09-03 14:33:37,469 INFO 14932 [Job#1599114817469249876417692991] C:\Users\admin\node\10\app\schedule\updatecache.js executing by app
+2020-09-03 14:33:37,472 INFO 14932 [Job#1599114817469249876417692991] C:\Users\admin\node\10\app\schedule\updatecache.js execute succeed, used 3ms. 
+2020-09-03 14:33:37,469 INFO 24180 [Timer] C:\Users\admin\node\10\app\schedule\updatecache.js next time will execute after 60000ms at 2020-09-03 14:34:37.469
+2020-09-03 14:34:37,472 INFO 14932 [Job#1599114877472249936451151002] C:\Users\admin\node\10\app\schedule\updatecache.js executing by app
+2020-09-03 14:34:37,475 INFO 14932 [Job#1599114877472249936451151002] C:\Users\admin\node\10\app\schedule\updatecache.js execute succeed, used 3ms. 
+2020-09-03 14:34:37,472 INFO 24180 [Timer] C:\Users\admin\node\10\app\schedule\updatecache.js next time will execute after 60000ms at 2020-09-03 14:35:37.472
+2020-09-03 17:28:13,152 INFO 4056 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-03 17:28:13,152 INFO 4056 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-03 17:28:13,152 INFO 4056 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-03 17:28:13,152 INFO 4056 [egg-schedule]: register schedule C:\Users\admin\node\10\app\schedule\updatecache.js
+2020-09-03 17:28:13,350 INFO 26812 [Timer] C:\Users\admin\node\10\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39706653ms at 2020-09-04 04:30:00.003
+2020-09-03 17:28:13,350 INFO 26812 [Timer] C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 23506650ms at 2020-09-04 00:00:00.000
+2020-09-03 17:28:13,350 INFO 26812 [Timer] C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23507650ms at 2020-09-04 00:00:01.000
+2020-09-03 17:28:13,351 INFO 26812 [Timer] C:\Users\admin\node\10\app\schedule\updatecache.js next time will execute after 60000ms at 2020-09-03 17:29:13.351
+2020-09-03 17:28:14,456 INFO 18808 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-03 17:28:14,456 INFO 18808 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-03 17:28:14,456 INFO 18808 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-03 17:28:14,456 INFO 18808 [egg-schedule]: register schedule C:\Users\admin\node\10\app\schedule\updatecache.js
+2020-09-03 17:29:11,013 INFO 27892 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-03 17:29:11,013 INFO 27892 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-03 17:29:11,013 INFO 27892 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-03 17:29:11,013 INFO 27892 [egg-schedule]: register schedule C:\Users\admin\node\10\app\schedule\updatecache.js
+2020-09-03 17:29:13,355 INFO 26812 [Timer] C:\Users\admin\node\10\app\schedule\updatecache.js next time will execute after 60000ms at 2020-09-03 17:30:13.355
+2020-09-03 17:29:13,355 INFO 27892 [Job#15991253533542604119268377991] C:\Users\admin\node\10\app\schedule\updatecache.js executing by app
+2020-09-03 17:29:13,375 INFO 27892 [Job#15991253533542604119268377991] C:\Users\admin\node\10\app\schedule\updatecache.js execute succeed, used 19ms. 
+2020-09-03 17:30:13,358 INFO 27892 [Job#15991254133572604719303009002] C:\Users\admin\node\10\app\schedule\updatecache.js executing by app
+2020-09-03 17:30:13,361 INFO 27892 [Job#15991254133572604719303009002] C:\Users\admin\node\10\app\schedule\updatecache.js execute succeed, used 3ms. 
+2020-09-03 17:30:13,358 INFO 26812 [Timer] C:\Users\admin\node\10\app\schedule\updatecache.js next time will execute after 60000ms at 2020-09-03 17:31:13.358
+2020-09-03 17:30:58,353 INFO 28328 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-03 17:30:58,353 INFO 28328 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-03 17:30:58,353 INFO 28328 [egg-schedule]: register schedule C:\Users\admin\node\10\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-03 17:30:58,353 INFO 28328 [egg-schedule]: register schedule C:\Users\admin\node\10\app\schedule\updatecache.js
+2020-09-03 17:31:13,359 INFO 28328 [Job#15991254733582605319311252993] C:\Users\admin\node\10\app\schedule\updatecache.js executing by app
+2020-09-03 17:31:13,369 INFO 28328 [Job#15991254733582605319311252993] C:\Users\admin\node\10\app\schedule\updatecache.js execute succeed, used 10ms. 
+2020-09-03 17:31:13,358 INFO 26812 [Timer] C:\Users\admin\node\10\app\schedule\updatecache.js next time will execute after 60000ms at 2020-09-03 17:32:13.358
+2020-09-03 17:32:13,364 INFO 28328 [Job#15991255333632605919358003994] C:\Users\admin\node\10\app\schedule\updatecache.js executing by app
+2020-09-03 17:32:13,366 INFO 28328 [Job#15991255333632605919358003994] C:\Users\admin\node\10\app\schedule\updatecache.js execute succeed, used 2ms. 
+2020-09-03 17:32:13,363 INFO 26812 [Timer] C:\Users\admin\node\10\app\schedule\updatecache.js next time will execute after 60000ms at 2020-09-03 17:33:13.363
+2020-09-03 17:33:13,378 INFO 28328 [Job#15991255933772606519497687005] C:\Users\admin\node\10\app\schedule\updatecache.js executing by app
+2020-09-03 17:33:13,380 INFO 28328 [Job#15991255933772606519497687005] C:\Users\admin\node\10\app\schedule\updatecache.js execute succeed, used 2ms. 
+2020-09-03 17:33:13,377 INFO 26812 [Timer] C:\Users\admin\node\10\app\schedule\updatecache.js next time will execute after 60000ms at 2020-09-03 17:34:13.377
